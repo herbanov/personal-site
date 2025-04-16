@@ -1,24 +1,112 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Lore Studies</title>
-		<link rel="stylesheet" href="styles.css">
-	</head>
-	
-	<body>
-		<h1 style=text-align:center;>Page 1 Header 1</h1>
-		<p>This is page 1, paragraph 1.</p>
-		<p>Paragraph 2</p>
-		<p>At the suggestion of Mortanious, Kain seeks the Pillars of Nosgoth to find a solution to his dilemma.</p>
-		
-		<img src="https://i.postimg.cc/9fpZxZvY/Lcpdgta3.png" alt="GTA 3" style="width:50%; border:5px outset red;">
-		
-		<h1>Heading 2</h1>
-		 <p>This is some text in a paragraph.</p>
-		
-		 <a href="https://www.youtube.com/@herbanov1155">Visit my channel.
-		 <a href="page2.html">Visit page 2.
-		 <br><br>
-	</body>
-	
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hunter's Journal</title>
+  <link href="https://fonts.googleapis.com/css2?family=Spectral:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      background-color: #0a0a0a;
+      font-family: 'Spectral', serif;
+      color: #e0d6c8;
+    }
+
+    header {
+      background: url('https://www.transparenttextures.com/patterns/dark-mosaic.png'), #1a1a1a;
+      padding: 2rem;
+      text-align: center;
+      border-bottom: 2px solid #3a2c2a;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+      color: #c0a16b;
+      text-shadow: 0 0 5px #000;
+    }
+
+    nav {
+      background-color: #111;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    nav a {
+      color: #c7b299;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+      color: #fff;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background-color: #1a1a1a;
+      border: 1px solid #3a2c2a;
+      box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    }
+
+    .post {
+      margin-bottom: 2rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid #3a2c2a;
+    }
+
+    .post h2 {
+      color: #c0a16b;
+    }
+
+    .post img {
+      max-width: 100%;
+      border: 1px solid #444;
+      margin-top: 1rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      color: #666;
+      background: #0d0d0d;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Hunter's Journal</h1>
+    <p>Chronicles of my cursed journey</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Blog</a>
+    <a href="#">Screenshots</a>
+    <a href="https://github.com/your-username" target="_blank">GitHub</a>
+  </nav>
+
+  <main>
+    <div class="post">
+      <h2>First Night in Yharnam</h2>
+      <p>The smell of blood and madness clings to the air... I barely survived. Here's a glimpse of what I saw.</p>
+      <img src="/path-to-your-screenshot.jpg" alt="Screenshot from Bloodborne-like game" />
+    </div>
+
+    <div class="post">
+      <h2>Glyphs & Secrets</h2>
+      <p>Explored an unmarked dungeon. Strange glyphs on the wall hinted at something... unspeakable.</p>
+      <img src="/path-to-another-screenshot.jpg" alt="Secret dungeon screenshot" />
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 Hunter's Journal. All rights forsaken.
+  </footer>
+</body>
 </html>
